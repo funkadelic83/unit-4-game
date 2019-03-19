@@ -1,6 +1,4 @@
-.left {
-    float: left;
-}
+
 
 .center {
     float: center;
@@ -25,3 +23,7 @@ body {
 .topmargin {
     margin-top: 10px;
 }
+
+.clearfix {
+    overflow: auto;
+  }
