@@ -1,0 +1,86 @@
+<!doctype html>
+<html lang="en-us">
+    <head>
+        <title>Crystal Game</title>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+        <link rel="stylesheet" type="text/css" href="./assets/css/style.css">
+    </head>
+<body>
+
+<div class="container">
+    <div class="row">
+        <div class="col-4"><h1>Crystals Collector!</h1></div>
+    </div>
+    <div class="row">
+        <div class="col-6">
+            <p>
+            You will be given a random number at the start of the game.
+            </p>
+            <p>
+            There are four crystals below. By clicking on a crystal you will add a specific amount of points to your total score.
+            </p>
+            <p>
+                You win the game by matching your total score to the random number, you lose the game if your total score goes above the random number.
+            </p>
+            <p>
+                The value of each crystal is hidden from you until you click on it.
+            </p>
+            <p>
+                Each time when the game starts, the game will change the values of each crystal.
+            </p>
+        </div>
+
+    </div>
+</div>
+
+<div class="container">
+    <div class="row">
+        <div class="col-3"><h1><span id="target-score"></h1></div>
+    </div>
+</div>
+
+<div class="container">
+    <div class="row">
+        <div class="col-1"><p>Wins: <span id="wins-number"></span></p></div>
+    </div>
+    <div class="row">
+        <div class="col-1"><p>Losses: <span id="losses-number"></span></p></div>
+    </div>
+</div>
+
+<div class="container">
+    <div class="row">
+        <div class="col-2" id="ruby" ><img src="./assets/images/ruby.jpg" alt="ruby" height="150" width="150"></div>
+        <div class="col-2" id="tourmaline" ><img src="./assets/images/tourmaline.jpg" alt="tourmaline" height="150" width="150"></div>
+        <div class="col-2" id="quartz" ><img src="./assets/images/quartz.jpg" alt="quartz" height="150" width="150"></div>
+        <div class="col-2" id="emerald" ><img src="./assets/images/emerald.jpg" alt="emerald"  height="150" width="150"></div>
+    </div>
+</div>
+
+<div class="container">
+        <div class="row">
+            <div class="col-3"><p>Your total score is:</p></h1></div>
+        </div>
+
+<div class="container">
+        <div class="row">
+            <div class="col-3"><h1><span id="current-score"></h1></div>
+        </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script type="text/javascript" src="./assets/javascript/game.js"></script>
+    </html>
