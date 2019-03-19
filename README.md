@@ -8,4 +8,5 @@ The hidden jewel values will log to the console, for ease in grading. If
 
 This project was created by Mike Damanskis: mikedamanskis@gmail.com
 
-Images are from Wikipedia Commons.
+Jewel Images are from Wikipedia Commons.
+Background from SubtlePatterns.com: Fancy Cushion Pattern
